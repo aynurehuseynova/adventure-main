@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+background-color: black;
+    nav {
+        width: 100%;
+        background: transparent;
+        margin: auto;
+
+        .collapseDiv {
+            justify-content: flex-end;
+            width: 80%;
+
+            ul {
+                gap: 15px;
+                font-weight: 700;
+
+            }
+        }
+    }
+}
+#product-sec{
+    min-height: 1110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  #getProduct{
+    min-height: 
+    450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    button{
+        background-color: cadetblue;
+        border-radius: 20px;
+        padding: 8px 17px;
+        font-size: 12px;
+        color:white;
+        &:hover{
+            background-color: black;
+        }
+    }
+  }
+}
